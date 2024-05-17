@@ -1,6 +1,6 @@
 body{
     font-family:"Roboto", sans-serif;
-    color: #2e2f42;
+    color:#434455 ;
     background-color: #ffffff;
 }
 a
@@ -21,7 +21,7 @@ button{
 button:hover,
 button:focus {
     text-decoration: none;
-    color: #4d5ae5;
+    color: #404BBF;
 }
 
 ul, ol{
@@ -35,62 +35,74 @@ font-family: "Roboto", sans-serif;
 .navigation-title {font-family: "Raleway", sans-serif;
     font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-    
+    color: #4d5ae5;
 }
 
 .navigation-web{
 font-family: "Raleway", sans-serif;
 font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color: #2e2f42;
 }
 
 .navigation-element { font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        color: #2e2f42;
         }
 
-.list-address-mail {
+.address{
+    font-style: normal;
+}
+
+
+
+.list-address-element { 
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;}
 
-.list-address-phone { 
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;}
+     
+
+.navigation .navigation-element:hover,
+.navigation-element:focus{
+    color: #404bbf;
+}
+
+   .list-address-element:hover,
+                 .list-address-element:focus{
+    color: #404bbf;
+                 }
 
 .solutions {
     background-color: #2e2f42;
     
-        height: 600px;
 }
 
 .solutions-title {
     font-weight: 700;
         font-size: 56px;
-        line-height: 1.07143;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
 }
 
 .button-order {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #fff;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
         background: #4d5ae5;
 }
 
@@ -98,6 +110,7 @@ font-weight: 700;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
     }
 
 .features-list-text { 
@@ -107,15 +120,21 @@ font-weight: 700;
     color: #434455;}
 
 .team {
-    background-color:#f4f4fd ;
+    background-color: #f4f4fd; ;
    
+}
+
+.team-list{
+    background-color: #fff;
 }
 
 .team-title { font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize ;
    }
 
 .team-name {font-weight: 500;
@@ -123,6 +142,7 @@ font-weight: 700;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
+    color: #2e2f42;
     }
 
 .team-text {
@@ -134,15 +154,18 @@ font-weight: 700;
 
 .portfolio-title {font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
    }
 
 .portfolio-name {font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
    }
 
 .portfolio-text {
@@ -152,16 +175,18 @@ font-weight: 700;
     color: #434455;}
 
 .footer { 
-    height: 312px;
+
     background-color: #2e2f42;
 }
 
-.footer-logo {font-weight: 700;
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
     font-size: 18px;
     line-height: 1.16667;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #f4f4fd;}
+    text-transform: uppercase;   color: #4d5ae5;
+   }
 
 .footer-text {
     font-size: 16px;
@@ -169,11 +194,13 @@ font-weight: 700;
     letter-spacing: 0.02em;
     color: #f4f4fd;}
 
-.footer-web{font-weight: 700;
+.footer-web{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
     font-size: 18px;
     line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+  color: #f4f4fd;
 
 }
